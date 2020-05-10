@@ -16,10 +16,12 @@ public class Planet : MonoBehaviour
 
     public ShapeGenerator shapeGenerator;
 
-    private void OnValidate()
-    {
-        GeneratePlanet();
-    }
+    [HideInInspector]
+    public bool shapeSettingsFoldout;
+    [HideInInspector]
+    public bool colorSettingsFoldout;
+
+    public bool autoUpdated = true;
 
     void Initialize()
     {
@@ -49,7 +51,7 @@ public class Planet : MonoBehaviour
         }
     }
 
-    void GeneratePlanet()
+    public void GeneratePlanet()
     {
         Initialize();
         GenerateMesh();
@@ -58,14 +60,20 @@ public class Planet : MonoBehaviour
 
     public void OnShapeSettingsUpdate()
     {
-        Initialize();
-        GenerateMesh();
+        if (autoUpdated)
+        {
+            Initialize();
+            GenerateMesh();
+        }
     }
 
     public void OnColorSettingsUpdate()
     {
-        Initialize();
-        GenerateColors();
+        if (autoUpdated)
+        {
+            Initialize();
+            GenerateColors();
+        }
     }
 
     void GenerateMesh()
