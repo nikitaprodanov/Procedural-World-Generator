@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb9dec5080affd64e90b8a356424e5ae, type: 3}
   m_Name: Shape
   m_EditorClassIdentifier: 
-  planerRadious: 1
+  planerRadious: 2.35
