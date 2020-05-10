@@ -1,2 +1,2 @@
 # Procedural-World-Generator
-This project is about procedural small planet generation.
+This repo is all about learning Unity and C# in an interactive way by creating something beautiful like small planets. All credits for this project goes to Sebastians Lague -> https://www.youtube.com/user/Cercopithecan. In this project I will be recreating one of his tutorials about procedural generation of small planets. This will help me learn the Unity essentials like building terrain, mesh rendering and using perlin noise.
