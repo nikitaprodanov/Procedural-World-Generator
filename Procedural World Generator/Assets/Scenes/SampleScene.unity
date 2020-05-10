@@ -194,7 +194,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19150226, g: 0.9339623, b: 0.074893214, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!43 &376044895
 Mesh:
@@ -511,7 +511,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19150226, g: 0.9339623, b: 0.074893214, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &705507993
 GameObject:
@@ -1082,7 +1082,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19150226, g: 0.9339623, b: 0.074893214, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!43 &1115523502
 Mesh:
@@ -1641,7 +1641,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19150226, g: 0.9339623, b: 0.074893214, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1556625764
 GameObject:
@@ -1759,6 +1759,8 @@ MonoBehaviour:
   - {fileID: 981680976}
   - {fileID: 978503644}
   - {fileID: 1274590075}
+  shapeSettings: {fileID: 11400000, guid: 555ba228223da424ea893e1e7fb766c6, type: 2}
+  colorSettings: {fileID: 11400000, guid: 3df7e8af285f90548b1e97d7a405bbca, type: 2}
 --- !u!4 &1676529619
 Transform:
   m_ObjectHideFlags: 0
@@ -2015,7 +2017,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19150226, g: 0.9339623, b: 0.074893214, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!43 &1940189158
 Mesh:
@@ -2253,5 +2255,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19150226, g: 0.9339623, b: 0.074893214, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
