@@ -56,13 +56,13 @@ public class Planet : MonoBehaviour
         GenerateColors();
     }
 
-    void OnShapeSettingsUpdate()
+    public void OnShapeSettingsUpdate()
     {
         Initialize();
         GenerateMesh();
     }
 
-    void OnColorSettingsUpdate()
+    public void OnColorSettingsUpdate()
     {
         Initialize();
         GenerateColors();
