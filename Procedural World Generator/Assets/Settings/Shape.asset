@@ -15,5 +15,8 @@ MonoBehaviour:
   planerRadious: 1.88
   noiseSettings:
     strenght: 1
-    roughness: 1
+    numLayers: 4
+    baseRoughness: 0.94
+    roughness: 1.11
+    persistance: 0.34
     center: {x: 0, y: 0, z: 0}

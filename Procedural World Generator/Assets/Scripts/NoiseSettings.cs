@@ -7,6 +7,10 @@ using UnityEngine;
 public class NoiseSettings
 {
     public float strenght = 1;
-    public float roughness = 1;
+    [Range(1, 8)]
+    public int numLayers = 1;
+    public float baseRoughness = 1;
+    public float roughness = 2;
+    public float persistance = 1;
     public Vector3 center;
 }
