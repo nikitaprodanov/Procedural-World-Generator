@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: Shape
   m_EditorClassIdentifier: 
   planerRadious: 1.88
+  noiseSettings:
+    strenght: 1
+    roughness: 1
+    center: {x: 0, y: 0, z: 0}

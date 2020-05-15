@@ -6,4 +6,5 @@ using UnityEngine;
 public class ShapeSettings : ScriptableObject
 {
     public float planerRadious = 1;
+    public NoiseSettings noiseSettings;
 }

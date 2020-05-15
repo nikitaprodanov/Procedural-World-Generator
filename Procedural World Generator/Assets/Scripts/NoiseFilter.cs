@@ -5,10 +5,16 @@ using UnityEngine;
 public class NoiseFilter
 {
     Noise noise = new Noise();
+    NoiseSettings noiseSettings;
+
+    public NoiseFilter(NoiseSettings noiseSettings)
+    {
+        this.noiseSettings = noiseSettings;
+    }
 
     public float Evaluate(Vector3 point)
     {
-        float noiseValue = (noise.Evaluate(point) + 1) * .5f;
-        return noiseValue;
+        float noiseValue = (noise.Evaluate(point * noiseSettings.roughness + noiseSettings.center) + 1) * .5f;
+        return noiseValue * noiseSettings.strenght;
     }
 }
